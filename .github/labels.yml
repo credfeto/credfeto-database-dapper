@@ -114,3 +114,31 @@
    color: "ff0000"
    description: "This pull request should not be merged yey"
 
+ - name: "Dapper"
+   color: "96f7d2"
+   description: "Changes in Credfeto.Database.Dapper project"
+
+ - name: "Dapper.Tests"
+   color: "0e8a16"
+   description: "Changes in Credfeto.Database.Dapper.Tests project"
+
+ - name: "Interfaces"
+   color: "96f7d2"
+   description: "Changes in Credfeto.Database.Interfaces project"
+
+ - name: "Pgsql"
+   color: "96f7d2"
+   description: "Changes in Credfeto.Database.Pgsql project"
+
+ - name: "Pgsql.Tests"
+   color: "0e8a16"
+   description: "Changes in Credfeto.Database.Pgsql.Tests project"
+
+ - name: "Shared"
+   color: "96f7d2"
+   description: "Changes in Credfeto.Database.Shared project"
+
+ - name: "Shared.Tests"
+   color: "0e8a16"
+   description: "Changes in Credfeto.Database.Shared.Tests project"
+
