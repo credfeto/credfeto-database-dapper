@@ -32,3 +32,17 @@
  - any: [ './**/*.md' ]
 "github-actions":
  - any: [ '.github/workflows/*.yml' ]
+"Dapper":
+ - any: [ 'src/Credfeto.Database.Dapper/**/*' ]
+"Dapper.Tests":
+ - any: [ 'src/Credfeto.Database.Dapper.Tests/**/*' ]
+"Interfaces":
+ - any: [ 'src/Credfeto.Database.Interfaces/**/*' ]
+"Pgsql":
+ - any: [ 'src/Credfeto.Database.Pgsql/**/*' ]
+"Pgsql.Tests":
+ - any: [ 'src/Credfeto.Database.Pgsql.Tests/**/*' ]
+"Shared":
+ - any: [ 'src/Credfeto.Database.Shared/**/*' ]
+"Shared.Tests":
+ - any: [ 'src/Credfeto.Database.Shared.Tests/**/*' ]
