@@ -1,7 +1,7 @@
 using System.Diagnostics;
 using System.Text.Json.Serialization;
 
-namespace Credfeto.Notification.Bot.Database.Pgsql;
+namespace Credfeto.Database.Pgsql;
 
 [DebuggerDisplay("{ConnectionString}")]
 public sealed class PgsqlServerConfiguration

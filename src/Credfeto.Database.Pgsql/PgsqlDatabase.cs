@@ -6,7 +6,7 @@ using Microsoft.Extensions.Options;
 using Npgsql;
 using Polly;
 
-namespace Credfeto.Notification.Bot.Database.Pgsql;
+namespace Credfeto.Database.Pgsql;
 
 public sealed class PgsqlDatabase : Dapper.Database
 {

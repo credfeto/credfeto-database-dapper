@@ -4,13 +4,13 @@ using System.Data;
 using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Threading.Tasks;
-using Credfeto.Notification.Bot.Database.Interfaces;
-using Credfeto.Notification.Bot.Database.Interfaces.Builders;
+using Credfeto.Database.Interfaces;
+using Credfeto.Database.Interfaces.Builders;
 using Dapper;
 using Polly;
 using Polly.Retry;
 
-namespace Credfeto.Notification.Bot.Database.Dapper;
+namespace Credfeto.Database.Dapper;
 
 public abstract class Database : IDatabase
 {

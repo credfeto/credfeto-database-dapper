@@ -1,7 +1,7 @@
-using Credfeto.Notification.Bot.Database.Interfaces;
+using Credfeto.Database.Interfaces;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Credfeto.Notification.Bot.Database.Pgsql;
+namespace Credfeto.Database.Pgsql;
 
 public static class PostgresqlSetup
 {

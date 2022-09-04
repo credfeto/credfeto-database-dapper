@@ -1,11 +1,11 @@
-﻿using Credfeto.Notification.Bot.Database.Interfaces.Builders;
-using Credfeto.Notification.Bot.Database.Shared.Tests.Mocks;
+﻿using Credfeto.Database.Interfaces.Builders;
+using Credfeto.Database.Shared.Tests.Mocks;
 using FunFair.Test.Common;
 using Microsoft.Extensions.DependencyInjection;
 using Xunit;
 using Xunit.Abstractions;
 
-namespace Credfeto.Notification.Bot.Database.Shared.Tests;
+namespace Credfeto.Database.Shared.Tests;
 
 public sealed class DependencyInjectionTests : DependencyInjectionTestsBase
 {

@@ -1,10 +1,10 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Credfeto.Notification.Bot.Database.Interfaces.Builders;
-using Credfeto.Notification.Bot.Database.Shared.Extensions;
+using Credfeto.Database.Interfaces.Builders;
+using Credfeto.Database.Shared.Extensions;
 
-namespace Credfeto.Notification.Bot.Database.Shared.Builders;
+namespace Credfeto.Database.Shared.Builders;
 
 public sealed class ObjectCollectionBuilder<TSourceObject, TDestinationObject> : IObjectCollectionBuilder<TSourceObject, TDestinationObject>
     where TSourceObject : class where TDestinationObject : class

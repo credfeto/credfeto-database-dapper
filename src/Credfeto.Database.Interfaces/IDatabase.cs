@@ -1,9 +1,9 @@
 using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
 using System.Threading.Tasks;
-using Credfeto.Notification.Bot.Database.Interfaces.Builders;
+using Credfeto.Database.Interfaces.Builders;
 
-namespace Credfeto.Notification.Bot.Database.Interfaces;
+namespace Credfeto.Database.Interfaces;
 
 public interface IDatabase
 {

@@ -1,7 +1,7 @@
 using System;
 using System.Security.Cryptography;
 
-namespace Credfeto.Notification.Bot.Database.Dapper;
+namespace Credfeto.Database.Dapper;
 
 public static class RetryDelayCalculator
 {

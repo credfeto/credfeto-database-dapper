@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace Credfeto.Notification.Bot.Database.Interfaces.Builders;
+namespace Credfeto.Database.Interfaces.Builders;
 
 public interface IObjectCollectionBuilder<in TSourceObject, out TDestinationObject> : IObjectBuilder<TSourceObject, TDestinationObject>
     where TSourceObject : class where TDestinationObject : class

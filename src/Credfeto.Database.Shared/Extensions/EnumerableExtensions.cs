@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace Credfeto.Notification.Bot.Database.Shared.Extensions;
+namespace Credfeto.Database.Shared.Extensions;
 
 internal static class EnumerableExtensions
 {

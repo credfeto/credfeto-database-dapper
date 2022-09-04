@@ -1,8 +1,8 @@
-using Credfeto.Notification.Bot.Database.Interfaces.Builders;
-using Credfeto.Notification.Bot.Database.Shared.Builders;
+using Credfeto.Database.Interfaces.Builders;
+using Credfeto.Database.Shared.Builders;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Credfeto.Notification.Bot.Database.Shared;
+namespace Credfeto.Database.Shared;
 
 public static class SharedDatabaseSetup
 {
