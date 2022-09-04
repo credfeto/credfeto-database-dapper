@@ -7,7 +7,7 @@
     <GenerateNeutralResourcesLanguageAttribute>true</GenerateNeutralResourcesLanguageAttribute>
     <ImplicitUsings>disable</ImplicitUsings>
     <IncludeOpenAPIAnalyzers>true</IncludeOpenAPIAnalyzers>
-    <IsPackable>false</IsPackable>
+    <IsPackable>true</IsPackable>
     <IsPublishable>false</IsPublishable>
     <IsTrimmable>true</IsTrimmable>
     <LangVersion>latest</LangVersion>
@@ -28,6 +28,21 @@
     <CodeAnalysisTreatWarningsAsErrors>true</CodeAnalysisTreatWarningsAsErrors>
     <EnableNETAnalyzers>true</EnableNETAnalyzers>
     <EnforceCodeStyleInBuild>true</EnforceCodeStyleInBuild>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Authors>Mark Ridgwell</Authors>
+    <Company>Mark Ridgwell</Company>
+    <Copyright>Mark Ridgwell</Copyright>
+    <NeutralLanguage>en-GB</NeutralLanguage>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReleaseNotes>$(ReleaseNotes)</PackageReleaseNotes>
+    <PackageTags>Database extensons</PackageTags>
+    <Product>Database wrapper</Product>
+    <RepositoryUrl>https://github.com/credfeto/credfeto-database</RepositoryUrl>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyTitle>Shared database extensions</AssemblyTitle>
+    <Description>Shared database extensions</Description>
   </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="..\Credfeto.Database.Interfaces\Credfeto.Database.Interfaces.csproj"/>
