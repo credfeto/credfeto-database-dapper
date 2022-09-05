@@ -17,6 +17,7 @@ Please ADD ALL Changes to the UNRELASED SECTION and not a specific release
 - FF-3881 - Updated DotNet SDK to 6.0.301
 - FF-3881 - Updated DotNet SDK to 6.0.302
 - FF-3881 - Updated DotNet SDK to 6.0.400
+- FF-1429 - Updated SecurityCodeScan.VS2019 to 5.6.7
 ### Removed
 ### Deployment Changes
 
