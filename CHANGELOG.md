@@ -21,6 +21,7 @@ Please ADD ALL Changes to the UNRELASED SECTION and not a specific release
 - FF-1429 - Updated FunFair.CodeAnalysis to 5.9.0.1493
 - FF-1429 - Updated FluentValidation.AspNetCore to 11.2.2
 - FF-1429 - Updated Meziantou.Analyzer to 1.0.725
+- FF-1429 - Updated Microsoft.Extensions to 6.0.2
 ### Removed
 ### Deployment Changes
 
