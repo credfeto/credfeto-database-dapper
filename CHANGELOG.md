@@ -30,6 +30,7 @@ Please ADD ALL Changes to the UNRELASED SECTION and not a specific release
 - FF-1429 - Updated coverlet to 3.2.0
 - FF-1429 - Updated Roslynator.Analyzers to 4.1.2
 - FF-1429 - Updated Meziantou.Analyzer to 1.0.745
+- FF-1429 - Updated Credfeto.Enumeration.Source.Generation to 0.0.2.3
 ### Removed
 ### Deployment Changes
 
