@@ -19,7 +19,6 @@ Please ADD ALL Changes to the UNRELASED SECTION and not a specific release
 - FF-1429 - Updated SecurityCodeScan.VS2019 to 5.6.7
 - FF-1429 - Updated FunFair.CodeAnalysis to 5.9.0.1493
 - FF-1429 - Updated FluentValidation.AspNetCore to 11.2.2
-- FF-1429 - Updated Microsoft.Extensions to 6.0.2
 - FF-3881 - Updated DotNet SDK to 6.0.401
 - FF-1429 - Updated Npgsql to 6.0.7
 - FF-1429 - Updated Philips.CodeAnalysis.DuplicateCodeAnalyzer to 1.1.7
@@ -31,6 +30,7 @@ Please ADD ALL Changes to the UNRELASED SECTION and not a specific release
 - FF-1429 - Updated Credfeto.Enumeration.Source.Generation to 0.0.4.6
 - FF-1429 - Updated FunFair.Test.Common to 6.0.6.2271
 - FF-1429 - Updated Microsoft.NET.Test.Sdk to 17.4.0
+- FF-1429 - Updated Microsoft.Extensions to 7.0.0
 ### Removed
 ### Deployment Changes
 
