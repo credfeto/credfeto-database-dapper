@@ -22,7 +22,6 @@ Please ADD ALL Changes to the UNRELASED SECTION and not a specific release
 - FF-3881 - Updated DotNet SDK to 6.0.401
 - FF-1429 - Updated Npgsql to 6.0.7
 - FF-1429 - Updated Philips.CodeAnalysis.DuplicateCodeAnalyzer to 1.1.7
-- FF-1429 - Updated SonarAnalyzer.CSharp to 8.47.0.55603
 - FF-1429 - Updated Microsoft.VisualStudio.Threading.Analyzers to 17.3.48
 - FF-1429 - Updated coverlet to 3.2.0
 - FF-1429 - Updated Roslynator.Analyzers to 4.1.2
@@ -31,6 +30,7 @@ Please ADD ALL Changes to the UNRELASED SECTION and not a specific release
 - FF-1429 - Updated Microsoft.Extensions to 7.0.0
 - FF-1429 - Updated FunFair.Test.Common to 6.0.7.2278
 - FF-1429 - Updated Credfeto.Enumeration.Source.Generation to 0.0.7.9
+- FF-1429 - Updated SonarAnalyzer.CSharp to 8.48.0.56517
 ### Removed
 ### Deployment Changes
 
