@@ -29,8 +29,8 @@ Please ADD ALL Changes to the UNRELASED SECTION and not a specific release
 - FF-1429 - Updated Meziantou.Analyzer to 1.0.745
 - FF-1429 - Updated Microsoft.NET.Test.Sdk to 17.4.0
 - FF-1429 - Updated Microsoft.Extensions to 7.0.0
-- FF-1429 - Updated Credfeto.Enumeration.Source.Generation to 0.0.6.8
 - FF-1429 - Updated FunFair.Test.Common to 6.0.7.2278
+- FF-1429 - Updated Credfeto.Enumeration.Source.Generation to 0.0.7.9
 ### Removed
 ### Deployment Changes
 
