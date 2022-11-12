@@ -12,7 +12,6 @@ Please ADD ALL Changes to the UNRELASED SECTION and not a specific release
 - FF-1429 - Updated SecurityCodeScan.VS2019 to 5.6.7
 - FF-1429 - Updated FunFair.CodeAnalysis to 5.9.0.1493
 - FF-1429 - Updated FluentValidation.AspNetCore to 11.2.2
-- FF-1429 - Updated Npgsql to 6.0.7
 - FF-1429 - Updated Philips.CodeAnalysis.DuplicateCodeAnalyzer to 1.1.7
 - FF-1429 - Updated coverlet to 3.2.0
 - FF-1429 - Updated Roslynator.Analyzers to 4.1.2
@@ -25,6 +24,7 @@ Please ADD ALL Changes to the UNRELASED SECTION and not a specific release
 - FF-1429 - Updated Microsoft.VisualStudio.Threading.Analyzers to 17.4.27
 - FF-1429 - Updated Philips.CodeAnalysis.MaintainabilityAnalyzers to 1.2.30
 - FF-1429 - Updated FunFair.Test.Common to 6.0.8.2334
+- FF-1429 - Updated Npgsql to 7.0.0
 ### Removed
 ### Deployment Changes
 
