@@ -24,7 +24,7 @@ Please ADD ALL Changes to the UNRELASED SECTION and not a specific release
 - FF-1429 - Updated FunFair.Test.Common to 6.0.8.2334
 - FF-1429 - Updated Npgsql to 7.0.0
 - FF-1429 - Updated Meziantou.Analyzer to 1.0.750
-- FF-1429 - Updated Credfeto.Enumeration.Source.Generation to 1.0.0.11
+- FF-1429 - Updated Credfeto.Enumeration.Source.Generation to 1.0.0.12
 ### Removed
 ### Deployment Changes
 
