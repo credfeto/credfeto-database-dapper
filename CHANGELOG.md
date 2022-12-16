@@ -14,7 +14,6 @@ Please ADD ALL Changes to the UNRELASED SECTION and not a specific release
 - FF-1429 - Updated FluentValidation.AspNetCore to 11.2.2
 - FF-1429 - Updated Philips.CodeAnalysis.DuplicateCodeAnalyzer to 1.1.7
 - FF-1429 - Updated coverlet to 3.2.0
-- FF-1429 - Updated Microsoft.NET.Test.Sdk to 17.4.0
 - FF-1429 - Updated Microsoft.Extensions to 7.0.0
 - FF-1429 - Updated Microsoft.VisualStudio.Threading.Analyzers to 17.4.27
 - FF-1429 - Updated Philips.CodeAnalysis.MaintainabilityAnalyzers to 1.2.30
@@ -26,6 +25,7 @@ Please ADD ALL Changes to the UNRELASED SECTION and not a specific release
 - FF-1429 - Updated Credfeto.Enumeration.Source.Generation to 1.0.1.13
 - FF-1429 - Updated FunFair.Test.Common to 6.0.11.2429
 - FF-1429 - Updated Meziantou.Analyzer to 1.0.757
+- FF-1429 - Updated Microsoft.NET.Test.Sdk to 17.4.1
 ### Removed
 ### Deployment Changes
 
