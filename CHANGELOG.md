@@ -17,7 +17,6 @@ Please ADD ALL Changes to the UNRELASED SECTION and not a specific release
 - FF-1429 - Updated Microsoft.Extensions to 7.0.0
 - FF-1429 - Updated Microsoft.VisualStudio.Threading.Analyzers to 17.4.27
 - FF-1429 - Updated Philips.CodeAnalysis.MaintainabilityAnalyzers to 1.2.30
-- FF-1429 - Updated Npgsql to 7.0.0
 - FF-1429 - Updated Roslynator.Analyzers to 4.2.0
 - FF-1429 - Updated xunit.analyzers to 1.1.0
 - FF-1429 - Updated SonarAnalyzer.CSharp to 8.50.0.58025
@@ -26,6 +25,7 @@ Please ADD ALL Changes to the UNRELASED SECTION and not a specific release
 - FF-1429 - Updated Microsoft.NET.Test.Sdk to 17.4.1
 - FF-1429 - Updated Credfeto.Enumeration.Source.Generation to 1.0.2.14
 - FF-1429 - Updated FunFair.Test.Common to 6.0.12.2443
+- FF-1429 - Updated Npgsql to 7.0.1
 ### Removed
 ### Deployment Changes
 
