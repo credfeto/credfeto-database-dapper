@@ -51,13 +51,9 @@
   </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="..\Credfeto.Database.Dapper\Credfeto.Database.Dapper.csproj" />
-    <ProjectReference Include="..\Credfeto.Database.Interfaces\Credfeto.Database.Interfaces.csproj" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="FluentValidation.AspNetCore" Version="11.2.2" />
-    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="7.0.0" />
-    <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="7.0.0" />
-    <PackageReference Include="Microsoft.Extensions.Options" Version="7.0.0" />
     <PackageReference Include="Npgsql" Version="7.0.1"/>
   </ItemGroup>
   <ItemGroup>
