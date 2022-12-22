@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using Credfeto.Database.Interfaces.Builders;
-using Credfeto.Database.Shared.Extensions;
+using Credfeto.Extensions.Linq;
 
 namespace Credfeto.Database.Shared.Builders;
 
