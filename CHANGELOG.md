@@ -10,6 +10,7 @@ Please ADD ALL Changes to the UNRELEASED SECTION and not a specific release
 ### Fixed
 ### Changed
 - FF-1429 - Updated Credfeto.Extensions.Linq to 1.0.0.2
+- FF-1429 - Updated SonarAnalyzer.CSharp to 8.52.0.60960
 ### Removed
 ### Deployment Changes
 
