@@ -1,5 +1,5 @@
 using System;
-using System.Data;
+using System.Data.Common;
 using System.Text;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
@@ -54,7 +54,7 @@ public sealed class PgsqlDatabase : Dapper.Database
         return sb.ToString();
     }
 
-    protected override IDbConnection GetConnection()
+    protected override DbConnection GetConnection()
     {
         return new NpgsqlConnection(this._configuration.ConnectionString);
     }
