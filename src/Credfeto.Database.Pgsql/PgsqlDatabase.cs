@@ -1,6 +1,8 @@
 using System;
 using System.Data.Common;
 using System.Text;
+using System.Threading;
+using System.Threading.Tasks;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Npgsql;
@@ -11,12 +13,14 @@ namespace Credfeto.Database.Pgsql;
 public sealed class PgsqlDatabase : Dapper.Database
 {
     private readonly PgsqlServerConfiguration _configuration;
+    private readonly NpgsqlDataSource _dataSource;
     private readonly ILogger<PgsqlDatabase> _logger;
 
     public PgsqlDatabase(IOptions<PgsqlServerConfiguration> configuration, ILogger<PgsqlDatabase> logger)
     {
         this._logger = logger ?? throw new ArgumentNullException(nameof(logger));
         this._configuration = configuration.Value ?? throw new ArgumentNullException(nameof(configuration));
+        this._dataSource = NpgsqlDataSource.Create(new NpgsqlConnectionStringBuilder(this._configuration.ConnectionString));
     }
 
     protected override bool IsTransientException(Exception exception)
@@ -54,8 +58,8 @@ public sealed class PgsqlDatabase : Dapper.Database
         return sb.ToString();
     }
 
-    protected override DbConnection GetConnection()
+    protected override async ValueTask<DbConnection> GetConnectionAsync(CancellationToken cancellationToken)
     {
-        return new NpgsqlConnection(this._configuration.ConnectionString);
+        return await this._dataSource.OpenConnectionAsync(cancellationToken);
     }
 }

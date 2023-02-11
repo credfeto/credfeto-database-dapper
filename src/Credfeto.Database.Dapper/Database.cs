@@ -4,6 +4,7 @@ using System.Data;
 using System.Data.Common;
 using System.Diagnostics.CodeAnalysis;
 using System.Linq;
+using System.Threading;
 using System.Threading.Tasks;
 using Credfeto.Database.Interfaces;
 using Credfeto.Database.Interfaces.Builders;
@@ -25,7 +26,9 @@ public abstract class Database : IDatabase
 
     public async Task<int> ExecuteAsync(string storedProcedure)
     {
-        await using (DbConnection connection = this.GetConnection())
+        CancellationToken cancellationToken = CancellationToken.None;
+
+        await using (DbConnection connection = await this.GetConnectionAsync(cancellationToken))
         {
             // ReSharper disable once AccessToDisposedClosure
             return await this.ExecuteWithRetriesAsync(func: () => InternalExecuteAsync(storedProcedure: storedProcedure, param: null, connection: connection), context: storedProcedure);
@@ -34,7 +37,9 @@ public abstract class Database : IDatabase
 
     public async Task<int> ExecuteAsync<TQueryParameters>(string storedProcedure, TQueryParameters param)
     {
-        await using (DbConnection connection = this.GetConnection())
+        CancellationToken cancellationToken = CancellationToken.None;
+
+        await using (DbConnection connection = await this.GetConnectionAsync(cancellationToken))
         {
             // ReSharper disable once AccessToDisposedClosure
             return await this.ExecuteWithRetriesAsync(func: () => InternalExecuteAsync(storedProcedure: storedProcedure, param: param, connection: connection), context: storedProcedure);
@@ -43,7 +48,9 @@ public abstract class Database : IDatabase
 
     public async Task<int> ExecuteArbitrarySqlAsync(string sql)
     {
-        await using (DbConnection connection = this.GetConnection())
+        CancellationToken cancellationToken = CancellationToken.None;
+
+        await using (DbConnection connection = await this.GetConnectionAsync(cancellationToken))
         {
             // ReSharper disable once AccessToDisposedClosure
             return await this.ExecuteWithRetriesAsync(func: () => connection.ExecuteAsync(sql: sql, commandType: CommandType.Text), context: sql);
@@ -108,7 +115,9 @@ public abstract class Database : IDatabase
             throw new ArgumentNullException(nameof(sql));
         }
 
-        await using (DbConnection connection = this.GetConnection())
+        CancellationToken cancellationToken = CancellationToken.None;
+
+        await using (DbConnection connection = await this.GetConnectionAsync(cancellationToken))
         {
             // ReSharper disable once AccessToDisposedClosure - The IEnumerable is enumerated inside the using statement, connection can't be disposed before
             // that happens
@@ -143,7 +152,7 @@ public abstract class Database : IDatabase
 
     protected abstract void LogAndDispatchTransientExceptions(Exception exception, Context context, in TimeSpan delay, int retryCount, int maxRetries);
 
-    protected abstract DbConnection GetConnection();
+    protected abstract ValueTask<DbConnection> GetConnectionAsync(CancellationToken cancellationToken);
 
     private static TReturn ExtractUnique<TSourceObject, TReturn>(IObjectBuilder<TSourceObject, TReturn> builder, IReadOnlyList<TSourceObject> result)
         where TSourceObject : class, new() where TReturn : class
@@ -172,7 +181,9 @@ public abstract class Database : IDatabase
     private async Task<IReadOnlyList<TReturn>> InternalQueryAsync<TReturn>(string storedProcedure, object? param)
         where TReturn : new()
     {
-        await using (DbConnection connection = this.GetConnection())
+        CancellationToken cancellationToken = CancellationToken.None;
+
+        await using (DbConnection connection = await this.GetConnectionAsync(cancellationToken))
         {
             // ReSharper disable once AccessToDisposedClosure - The IEnumerable is enumerated inside the using statement, connection can't be disposed before
             // that happens
