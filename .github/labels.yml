@@ -126,6 +126,10 @@
    color: "96f7d2"
    description: "Changes in Credfeto.Database.Dapper.Pgsql project"
 
+ - name: "Pgsql.Tests"
+   color: "0e8a16"
+   description: "Changes in Credfeto.Database.Dapper.Pgsql.Tests project"
+
  - name: "Shared"
    color: "96f7d2"
    description: "Changes in Credfeto.Database.Dapper.Shared project"
@@ -137,8 +141,4 @@
  - name: "Tests"
    color: "0e8a16"
    description: "Changes in Credfeto.Database.Dapper.Tests project"
-
- - name: "Credfeto.Database.Pgsql.Tests"
-   color: "0e8a16"
-   description: "Changes in Credfeto.Database.Pgsql.Tests project"
 
