@@ -1,10 +1,11 @@
-﻿using Credfeto.Database.Shared.Tests.Mocks;
+﻿using Credfeto.Database.Dapper.Shared.Tests.Mocks;
+using Credfeto.Database.Shared;
 using FunFair.Test.Common;
 using Microsoft.Extensions.DependencyInjection;
 using Xunit;
 using Xunit.Abstractions;
 
-namespace Credfeto.Database.Shared.Tests;
+namespace Credfeto.Database.Dapper.Shared.Tests;
 
 public sealed class DependencyInjectionTests : DependencyInjectionTestsBase
 {

@@ -8,9 +8,9 @@ using Microsoft.Extensions.Options;
 using Npgsql;
 using Polly;
 
-namespace Credfeto.Database.Pgsql;
+namespace Credfeto.Database.Dapper.Pgsql;
 
-public sealed class PgsqlDatabase : Dapper.Database
+public sealed class PgsqlDatabase : Database
 {
     private readonly PgsqlServerConfiguration _configuration;
     private readonly NpgsqlDataSource _dataSource;

@@ -1,6 +1,6 @@
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Credfeto.Database.Pgsql;
+namespace Credfeto.Database.Dapper.Pgsql;
 
 public static class PostgresqlSetup
 {

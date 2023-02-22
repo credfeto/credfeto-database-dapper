@@ -1,4 +1,4 @@
-namespace Credfeto.Database.Shared.Tests.Mocks;
+namespace Credfeto.Database.Dapper.Shared.Tests.Mocks;
 
 public sealed class BananaEntity
 {

@@ -1,4 +1,4 @@
-namespace Credfeto.Database.Interfaces.Builders;
+namespace Credfeto.Database.Dapper.Interfaces.Builders;
 
 public interface IObjectBuilder<in TSourceObject, out TDestinationObject>
     where TSourceObject : class where TDestinationObject : class

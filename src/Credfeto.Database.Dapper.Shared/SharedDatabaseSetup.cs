@@ -1,4 +1,4 @@
-using Credfeto.Database.Interfaces.Builders;
+using Credfeto.Database.Dapper.Interfaces.Builders;
 using Credfeto.Database.Shared.Builders;
 using Microsoft.Extensions.DependencyInjection;
 

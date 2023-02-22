@@ -1,4 +1,4 @@
-﻿using Credfeto.Database.Interfaces;
+﻿using Credfeto.Database.Dapper.Interfaces;
 using FunFair.Test.Common;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
@@ -6,7 +6,7 @@ using NSubstitute;
 using Xunit;
 using Xunit.Abstractions;
 
-namespace Credfeto.Database.Pgsql.Tests;
+namespace Credfeto.Database.Dapper.Pgsql.Tests;
 
 public sealed class DependencyInjectionTests : DependencyInjectionTestsBase
 {

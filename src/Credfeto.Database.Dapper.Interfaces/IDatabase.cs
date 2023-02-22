@@ -1,9 +1,9 @@
 using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
 using System.Threading.Tasks;
-using Credfeto.Database.Interfaces.Builders;
+using Credfeto.Database.Dapper.Interfaces.Builders;
 
-namespace Credfeto.Database.Interfaces;
+namespace Credfeto.Database.Dapper.Interfaces;
 
 public interface IDatabase
 {
