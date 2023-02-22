@@ -1,5 +1,5 @@
-﻿using Credfeto.Database.Dapper.Shared.Tests.Mocks;
-using Credfeto.Database.Shared;
+﻿using Credfeto.Database.Dapper.Interfaces.Builders;
+using Credfeto.Database.Dapper.Shared.Tests.Mocks;
 using FunFair.Test.Common;
 using Microsoft.Extensions.DependencyInjection;
 using Xunit;
@@ -16,7 +16,8 @@ public sealed class DependencyInjectionTests : DependencyInjectionTestsBase
 
     private static IServiceCollection Configure(IServiceCollection services)
     {
-        return SharedDatabaseSetup.AddDatabaseShared(services.AddMockedService<IObjectBuilder<BananaEntity, Banana>>());
+        return services.AddMockedService<IObjectBuilder<BananaEntity, Banana>>()
+                       .AddDatabaseShared();
     }
 
     [Fact]

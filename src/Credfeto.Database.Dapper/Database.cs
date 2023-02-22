@@ -6,6 +6,8 @@ using System.Diagnostics.CodeAnalysis;
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
+using Credfeto.Database.Dapper.Interfaces;
+using Credfeto.Database.Dapper.Interfaces.Builders;
 using Dapper;
 using Polly;
 using Polly.Retry;

@@ -1,3 +1,4 @@
+using Credfeto.Database.Dapper.Interfaces;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace Credfeto.Database.Dapper.Pgsql;

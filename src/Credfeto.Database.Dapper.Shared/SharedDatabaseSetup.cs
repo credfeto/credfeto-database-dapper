@@ -1,8 +1,8 @@
 using Credfeto.Database.Dapper.Interfaces.Builders;
-using Credfeto.Database.Shared.Builders;
+using Credfeto.Database.Dapper.Shared.Builders;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace Credfeto.Database.Shared;
+namespace Credfeto.Database.Dapper.Shared;
 
 public static class SharedDatabaseSetup
 {

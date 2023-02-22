@@ -4,7 +4,7 @@ using System.Linq;
 using Credfeto.Database.Dapper.Interfaces.Builders;
 using Credfeto.Extensions.Linq;
 
-namespace Credfeto.Database.Shared.Builders;
+namespace Credfeto.Database.Dapper.Shared.Builders;
 
 public sealed class ObjectCollectionBuilder<TSourceObject, TDestinationObject> : IObjectCollectionBuilder<TSourceObject, TDestinationObject>
     where TSourceObject : class where TDestinationObject : class
