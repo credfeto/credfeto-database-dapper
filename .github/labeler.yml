@@ -38,11 +38,11 @@
  - any: [ 'src/Credfeto.Database.Dapper.Interfaces/**/*' ]
 "Pgsql":
  - any: [ 'src/Credfeto.Database.Dapper.Pgsql/**/*' ]
+"Pgsql.Tests":
+ - any: [ 'src/Credfeto.Database.Dapper.Pgsql.Tests/**/*' ]
 "Shared":
  - any: [ 'src/Credfeto.Database.Dapper.Shared/**/*' ]
 "Shared.Tests":
  - any: [ 'src/Credfeto.Database.Dapper.Shared.Tests/**/*' ]
 "Tests":
  - any: [ 'src/Credfeto.Database.Dapper.Tests/**/*' ]
-"Credfeto.Database.Pgsql.Tests":
- - any: [ 'src/Credfeto.Database.Pgsql.Tests/**/*' ]
