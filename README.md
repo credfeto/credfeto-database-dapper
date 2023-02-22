@@ -1,4 +1,4 @@
-# credfeto-database
+# credfeto-database-dapper
 
 Database interfaces and wrapper for simplifying database access using dapper.
 

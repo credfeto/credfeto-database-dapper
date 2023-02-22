@@ -41,21 +41,14 @@
     <NeutralLanguage>en-GB</NeutralLanguage>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageReleaseNotes>$(ReleaseNotes)</PackageReleaseNotes>
-    <PackageTags>Database extensons</PackageTags>
+    <PackageTags>Database wrapper.</PackageTags>
     <Product>Database wrapper</Product>
-    <RepositoryUrl>https://github.com/credfeto/credfeto-database</RepositoryUrl>
+    <RepositoryUrl>https://github.com/credfeto/credfeto-database-dapper</RepositoryUrl>
   </PropertyGroup>
   <PropertyGroup>
-    <AssemblyTitle>Shared database extensions</AssemblyTitle>
-    <Description>Shared database extensions</Description>
+    <AssemblyTitle>Database interfaces</AssemblyTitle>
+    <Description>Database interfaces</Description>
   </PropertyGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Credfeto.Database.Interfaces\Credfeto.Database.Interfaces.csproj" />
-  </ItemGroup>
-  <ItemGroup>
-    <PackageReference Include="Credfeto.Extensions.Linq" Version="1.0.0.2" />
-    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="7.0.0" />
-  </ItemGroup>
   <ItemGroup>
     <PackageReference Include="AsyncFixer" Version="1.6.0" PrivateAssets="All" ExcludeAssets="runtime" />
     <PackageReference Include="codecracker.CSharp" Version="1.1.0" PrivateAssets="All" ExcludeAssets="runtime" />

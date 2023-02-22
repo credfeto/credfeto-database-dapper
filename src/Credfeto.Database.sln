@@ -11,19 +11,19 @@ ProjectSection(SolutionItems) = preProject
 	..\README.md = ..\README.md
 EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Credfeto.Database.Interfaces", "Credfeto.Database.Interfaces\Credfeto.Database.Interfaces.csproj", "{5EF98CF4-574D-4DDF-BA60-1FE12D84113D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Credfeto.Database.Dapper.Interfaces", "Credfeto.Database.Dapper.Interfaces\Credfeto.Database.Dapper.Interfaces.csproj", "{5EF98CF4-574D-4DDF-BA60-1FE12D84113D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Credfeto.Database.Dapper", "Credfeto.Database.Dapper\Credfeto.Database.Dapper.csproj", "{33FD765B-2D1E-40D0-96D6-A840C515D5AB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Credfeto.Database.Dapper.Tests", "Credfeto.Database.Dapper.Tests\Credfeto.Database.Dapper.Tests.csproj", "{873E908B-239D-4883-B5C6-3A172575B8EC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Credfeto.Database.Pgsql", "Credfeto.Database.Pgsql\Credfeto.Database.Pgsql.csproj", "{B77DB0EE-6609-434B-A02D-7C402F352902}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Credfeto.Database.Dapper.Pgsql", "Credfeto.Database.Dapper.Pgsql\Credfeto.Database.Dapper.Pgsql.csproj", "{B77DB0EE-6609-434B-A02D-7C402F352902}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Credfeto.Database.Pgsql.Tests", "Credfeto.Database.Pgsql.Tests\Credfeto.Database.Pgsql.Tests.csproj", "{D8F6292A-A65A-485D-ACB2-D81B6000E9AC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Credfeto.Database.Dapper.Pgsql.Tests", "Credfeto.Database.Dapper.Pgsql.Tests\Credfeto.Database.Dapper.Pgsql.Tests.csproj", "{D8F6292A-A65A-485D-ACB2-D81B6000E9AC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Credfeto.Database.Shared", "Credfeto.Database.Shared\Credfeto.Database.Shared.csproj", "{21EB1B26-2443-40A6-9BF5-98DD8D30EE98}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Credfeto.Database.Dapper.Shared", "Credfeto.Database.Dapper.Shared\Credfeto.Database.Dapper.Shared.csproj", "{21EB1B26-2443-40A6-9BF5-98DD8D30EE98}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Credfeto.Database.Shared.Tests", "Credfeto.Database.Shared.Tests\Credfeto.Database.Shared.Tests.csproj", "{126A4D15-C1C4-4044-9F38-CC4DAE867E3C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Credfeto.Database.Dapper.Shared.Tests", "Credfeto.Database.Dapper.Shared.Tests\Credfeto.Database.Dapper.Shared.Tests.csproj", "{126A4D15-C1C4-4044-9F38-CC4DAE867E3C}"
 EndProject
 Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution

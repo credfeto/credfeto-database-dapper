@@ -1,5 +1,4 @@
-﻿using Credfeto.Database.Interfaces.Builders;
-using Credfeto.Database.Shared.Tests.Mocks;
+﻿using Credfeto.Database.Shared.Tests.Mocks;
 using FunFair.Test.Common;
 using Microsoft.Extensions.DependencyInjection;
 using Xunit;
@@ -16,8 +15,7 @@ public sealed class DependencyInjectionTests : DependencyInjectionTestsBase
 
     private static IServiceCollection Configure(IServiceCollection services)
     {
-        return services.AddMockedService<IObjectBuilder<BananaEntity, Banana>>()
-                       .AddDatabaseShared();
+        return SharedDatabaseSetup.AddDatabaseShared(services.AddMockedService<IObjectBuilder<BananaEntity, Banana>>());
     }
 
     [Fact]

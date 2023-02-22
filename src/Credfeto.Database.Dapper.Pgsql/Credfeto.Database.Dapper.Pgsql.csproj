@@ -41,14 +41,21 @@
     <NeutralLanguage>en-GB</NeutralLanguage>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageReleaseNotes>$(ReleaseNotes)</PackageReleaseNotes>
-    <PackageTags>Database wrapper.</PackageTags>
+    <PackageTags>Database wrapper PostgreSQL</PackageTags>
     <Product>Database wrapper</Product>
-    <RepositoryUrl>https://github.com/credfeto/credfeto-database</RepositoryUrl>
+    <RepositoryUrl>https://github.com/credfeto/credfeto-database-dapper</RepositoryUrl>
   </PropertyGroup>
   <PropertyGroup>
-    <AssemblyTitle>Database interfaces</AssemblyTitle>
-    <Description>Database interfaces</Description>
+    <AssemblyTitle>PostgreSQL implemetation of database.</AssemblyTitle>
+    <Description>PostgreSQL implemetation of database.</Description>
   </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Credfeto.Database.Dapper\Credfeto.Database.Dapper.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="FluentValidation.AspNetCore" Version="11.2.2" />
+    <PackageReference Include="Npgsql" Version="7.0.1" />
+  </ItemGroup>
   <ItemGroup>
     <PackageReference Include="AsyncFixer" Version="1.6.0" PrivateAssets="All" ExcludeAssets="runtime" />
     <PackageReference Include="codecracker.CSharp" Version="1.1.0" PrivateAssets="All" ExcludeAssets="runtime" />

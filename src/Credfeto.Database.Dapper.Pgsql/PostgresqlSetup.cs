@@ -1,4 +1,3 @@
-using Credfeto.Database.Interfaces;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace Credfeto.Database.Pgsql;
