@@ -10,7 +10,7 @@ Please ADD ALL Changes to the UNRELEASED SECTION and not a specific release
 ### Fixed
 ### Changed
 - Dependencies - Updated FluentValidation to 11.3.0
-- Dependencies - Updated Meziantou.Analyzer to 2.0.28
+- Dependencies - Updated Meziantou.Analyzer to 2.0.29
 ### Removed
 ### Deployment Changes
 
