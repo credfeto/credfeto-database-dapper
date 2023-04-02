@@ -9,14 +9,17 @@ Please ADD ALL Changes to the UNRELEASED SECTION and not a specific release
 ### Added
 ### Fixed
 ### Changed
-- Dependencies - Updated FluentValidation to 11.3.0
-- Dependencies - Updated Meziantou.Analyzer to 2.0.29
 ### Removed
 ### Deployment Changes
 
 <!--
 Releases that have at least been deployed to staging, BUT NOT necessarily released to live.  Changes should be moved from [Unreleased] into here as they are merged into the appropriate release branch
 -->
+## [1.0.8] - 2023-04-02
+### Changed
+- Dependencies - Updated FluentValidation to 11.3.0
+- Dependencies - Updated Meziantou.Analyzer to 2.0.29
+
 ## [1.0.7] - 2023-03-21
 ### Changed
 - FF-1429 - Updated Meziantou.Analyzer to 2.0.19
