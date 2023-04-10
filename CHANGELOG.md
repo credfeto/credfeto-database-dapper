@@ -10,6 +10,7 @@ Please ADD ALL Changes to the UNRELEASED SECTION and not a specific release
 ### Fixed
 ### Changed
 - Dependencies - Updated Meziantou.Analyzer to 2.0.32
+- Dependencies - Updated Credfeto.Extensions.Linq to 1.0.6.8
 ### Removed
 ### Deployment Changes
 
