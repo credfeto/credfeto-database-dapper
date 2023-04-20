@@ -9,15 +9,18 @@ Please ADD ALL Changes to the UNRELEASED SECTION and not a specific release
 ### Added
 ### Fixed
 ### Changed
-- Dependencies - Updated FunFair.Test.Common to 6.0.29.1
-- Dependencies - Updated SonarAnalyzer.CSharp to 8.56.0.67649
-- Dependencies - Updated Credfeto.Extensions.Linq to 1.0.7.441
 ### Removed
 ### Deployment Changes
 
 <!--
 Releases that have at least been deployed to staging, BUT NOT necessarily released to live.  Changes should be moved from [Unreleased] into here as they are merged into the appropriate release branch
 -->
+## [1.0.11] - 2023-04-20
+### Changed
+- Dependencies - Updated FunFair.Test.Common to 6.0.29.1
+- Dependencies - Updated SonarAnalyzer.CSharp to 8.56.0.67649
+- Dependencies - Updated Credfeto.Extensions.Linq to 1.0.7.441
+
 ## [1.0.10] - 2023-04-18
 ### Changed
 - Dependencies - Updated Meziantou.Analyzer to 2.0.34
