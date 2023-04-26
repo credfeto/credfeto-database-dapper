@@ -14,6 +14,7 @@ Please ADD ALL Changes to the UNRELEASED SECTION and not a specific release
 - Dependencies - Updated Roslynator.Analyzers to 4.3.0
 - Dependencies - Updated Npgsql to 7.0.4
 - Dependencies - Updated Meziantou.Analyzer to 2.0.41
+- Dependencies - Updated Credfeto.Extensions.Linq to 1.0.8.785
 ### Removed
 ### Deployment Changes
 
