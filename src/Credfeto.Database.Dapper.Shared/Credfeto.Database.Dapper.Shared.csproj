@@ -55,7 +55,7 @@
     <ProjectReference Include="..\Credfeto.Database.Dapper.Interfaces\Credfeto.Database.Dapper.Interfaces.csproj" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="Credfeto.Extensions.Linq" Version="1.0.9.26" />
+    <PackageReference Include="Credfeto.Extensions.Linq" Version="1.0.10.35" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="7.0.0" />
   </ItemGroup>
   <ItemGroup>
