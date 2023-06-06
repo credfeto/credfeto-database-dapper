@@ -10,6 +10,7 @@ Please ADD ALL Changes to the UNRELEASED SECTION and not a specific release
 ### Fixed
 ### Changed
 - Dependencies - Updated SonarAnalyzer.CSharp to 9.3.0.71466
+- Dependencies - Updated Microsoft.NET.Test.Sdk to 17.6.2
 ### Removed
 ### Deployment Changes
 
