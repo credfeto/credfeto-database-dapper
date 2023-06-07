@@ -9,13 +9,16 @@ Please ADD ALL Changes to the UNRELEASED SECTION and not a specific release
 ### Added
 ### Fixed
 ### Changed
-- Dependencies - Updated Credfeto.Extensions.Linq to 1.0.11.43
 ### Removed
 ### Deployment Changes
 
 <!--
 Releases that have at least been deployed to staging, BUT NOT necessarily released to live.  Changes should be moved from [Unreleased] into here as they are merged into the appropriate release branch
 -->
+## [1.0.18] - 2023-06-07
+### Changed
+- Dependencies - Updated Credfeto.Extensions.Linq to 1.0.11.43
+
 ## [1.0.17] - 2023-06-07
 ### Changed
 - Dependencies - Updated SonarAnalyzer.CSharp to 9.3.0.71466
