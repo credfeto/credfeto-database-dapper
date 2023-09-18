@@ -20,6 +20,7 @@ Please ADD ALL Changes to the UNRELEASED SECTION and not a specific release
 - Dependencies - Updated Dapper to 2.0.151
 - Dependencies - Updated Microsoft.NET.Test.Sdk to 17.7.2
 - Dependencies - Updated Npgsql to 7.0.6
+- Dependencies - Updated NSubstitute to 5.1.0
 ### Removed
 ### Deployment Changes
 
