@@ -19,6 +19,7 @@ Please ADD ALL Changes to the UNRELEASED SECTION and not a specific release
 - Dependencies - Updated xunit.analyzers to 1.3.0
 - Dependencies - Updated Dapper to 2.0.151
 - Dependencies - Updated Microsoft.NET.Test.Sdk to 17.7.2
+- Dependencies - Updated Npgsql to 7.0.6
 ### Removed
 ### Deployment Changes
 
