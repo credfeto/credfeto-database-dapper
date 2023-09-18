@@ -21,6 +21,7 @@ Please ADD ALL Changes to the UNRELEASED SECTION and not a specific release
 - Dependencies - Updated Microsoft.NET.Test.Sdk to 17.7.2
 - Dependencies - Updated Npgsql to 7.0.6
 - Dependencies - Updated NSubstitute to 5.1.0
+- Dependencies - Updated TeamCity.VSTest.TestAdapter to 1.0.37
 ### Removed
 ### Deployment Changes
 
