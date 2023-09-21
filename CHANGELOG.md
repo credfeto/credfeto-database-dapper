@@ -9,13 +9,16 @@ Please ADD ALL Changes to the UNRELEASED SECTION and not a specific release
 ### Added
 ### Fixed
 ### Changed
-- Dependencies - Updated Credfeto.Extensions.Linq to 1.0.12.90
 ### Removed
 ### Deployment Changes
 
 <!--
 Releases that have at least been deployed to staging, BUT NOT necessarily released to live.  Changes should be moved from [Unreleased] into here as they are merged into the appropriate release branch
 -->
+## [1.0.22] - 2023-09-21
+### Changed
+- Dependencies - Updated Credfeto.Extensions.Linq to 1.0.12.90
+
 ## [1.0.21] - 2023-09-20
 ### Changed
 - SDK - Updated DotNet SDK to 8.0.100-rc.1.23455.8
