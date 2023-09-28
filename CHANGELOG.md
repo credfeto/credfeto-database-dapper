@@ -9,14 +9,17 @@ Please ADD ALL Changes to the UNRELEASED SECTION and not a specific release
 ### Added
 ### Fixed
 ### Changed
-- Dependencies - Updated SonarAnalyzer.CSharp to 9.11.0.78383
-- Dependencies - Updated Polly to 8.0.0
 ### Removed
 ### Deployment Changes
 
 <!--
 Releases that have at least been deployed to staging, BUT NOT necessarily released to live.  Changes should be moved from [Unreleased] into here as they are merged into the appropriate release branch
 -->
+## [1.0.23] - 2023-09-28
+### Changed
+- Dependencies - Updated SonarAnalyzer.CSharp to 9.11.0.78383
+- Dependencies - Updated Polly to 8.0.0
+
 ## [1.0.22] - 2023-09-21
 ### Changed
 - Dependencies - Updated Credfeto.Extensions.Linq to 1.0.12.90
