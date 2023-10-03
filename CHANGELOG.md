@@ -9,14 +9,17 @@ Please ADD ALL Changes to the UNRELEASED SECTION and not a specific release
 ### Added
 ### Fixed
 ### Changed
-- Dependencies - Updated Dapper to 2.1.4
-- Dependencies - Updated Meziantou.Analyzer to 2.0.92
 ### Removed
 ### Deployment Changes
 
 <!--
 Releases that have at least been deployed to staging, BUT NOT necessarily released to live.  Changes should be moved from [Unreleased] into here as they are merged into the appropriate release branch
 -->
+## [1.0.24] - 2023-10-03
+### Changed
+- Dependencies - Updated Dapper to 2.1.4
+- Dependencies - Updated Meziantou.Analyzer to 2.0.92
+
 ## [1.0.23] - 2023-09-28
 ### Changed
 - Dependencies - Updated SonarAnalyzer.CSharp to 9.11.0.78383
