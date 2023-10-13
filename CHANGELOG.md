@@ -9,6 +9,14 @@ Please ADD ALL Changes to the UNRELEASED SECTION and not a specific release
 ### Added
 ### Fixed
 ### Changed
+### Removed
+### Deployment Changes
+
+<!--
+Releases that have at least been deployed to staging, BUT NOT necessarily released to live.  Changes should be moved from [Unreleased] into here as they are merged into the appropriate release branch
+-->
+## [1.0.25] - 2023-10-13
+### Changed
 - Dependencies - Updated Meziantou.Analyzer to 2.0.93
 - SDK - Updated DotNet SDK to 8.0.100-rc.2.23502.2
 - Dependencies - Updated FunFair.Test.Common to 6.1.12.182
@@ -17,12 +25,7 @@ Please ADD ALL Changes to the UNRELEASED SECTION and not a specific release
 - Dependencies - Updated Dapper to 2.1.11
 - Dependencies - Updated xunit to 2.5.2
 - Dependencies - Updated xunit.runner.visualstudio to 2.5.3
-### Removed
-### Deployment Changes
 
-<!--
-Releases that have at least been deployed to staging, BUT NOT necessarily released to live.  Changes should be moved from [Unreleased] into here as they are merged into the appropriate release branch
--->
 ## [1.0.24] - 2023-10-03
 ### Changed
 - Dependencies - Updated Dapper to 2.1.4
