@@ -12,6 +12,7 @@ Please ADD ALL Changes to the UNRELEASED SECTION and not a specific release
 - Dependencies - Updated xunit to 2.5.3
 - Dependencies - Updated TeamCity.VSTest.TestAdapter to 1.0.38
 - Dependencies - Updated Roslynator.Analyzers to 4.6.0
+- Dependencies - Updated Dapper to 2.1.15
 ### Removed
 ### Deployment Changes
 
