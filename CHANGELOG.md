@@ -9,16 +9,19 @@ Please ADD ALL Changes to the UNRELEASED SECTION and not a specific release
 ### Added
 ### Fixed
 ### Changed
-- Dependencies - Updated Roslynator.Analyzers to 4.6.2
-- Dependencies - Updated xunit.analyzers to 1.5.0
-- Dependencies - Updated Dapper to 2.1.21
-- Dependencies - Updated FunFair.Test.Common to 6.1.17.224
 ### Removed
 ### Deployment Changes
 
 <!--
 Releases that have at least been deployed to staging, BUT NOT necessarily released to live.  Changes should be moved from [Unreleased] into here as they are merged into the appropriate release branch
 -->
+## [1.0.29] - 2023-11-12
+### Changed
+- Dependencies - Updated Roslynator.Analyzers to 4.6.2
+- Dependencies - Updated xunit.analyzers to 1.5.0
+- Dependencies - Updated Dapper to 2.1.21
+- Dependencies - Updated FunFair.Test.Common to 6.1.17.224
+
 ## [1.0.28] - 2023-11-10
 ### Changed
 - Dependencies - Updated xunit to 2.6.1
