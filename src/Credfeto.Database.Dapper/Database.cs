@@ -31,8 +31,7 @@ public abstract class Database : IDatabase
         await using (DbConnection connection = await this.GetConnectionAsync(cancellationToken))
         {
             // ReSharper disable once AccessToDisposedClosure
-            return await this.ExecuteWithRetriesAsync(func: () => InternalExecuteAsync(storedProcedure: storedProcedure, param: null, connection: connection),
-                                                      context: storedProcedure);
+            return await this.ExecuteWithRetriesAsync(func: () => InternalExecuteAsync(storedProcedure: storedProcedure, param: null, connection: connection), context: storedProcedure);
         }
     }
 
@@ -43,8 +42,7 @@ public abstract class Database : IDatabase
         await using (DbConnection connection = await this.GetConnectionAsync(cancellationToken))
         {
             // ReSharper disable once AccessToDisposedClosure
-            return await this.ExecuteWithRetriesAsync(func: () => InternalExecuteAsync(storedProcedure: storedProcedure, param: param, connection: connection),
-                                                      context: storedProcedure);
+            return await this.ExecuteWithRetriesAsync(func: () => InternalExecuteAsync(storedProcedure: storedProcedure, param: param, connection: connection), context: storedProcedure);
         }
     }
 
@@ -67,9 +65,7 @@ public abstract class Database : IDatabase
         return ExtractUnique(builder: builder, result: result);
     }
 
-    public async Task<TResult> QuerySingleAsync<TQueryParameters, TSourceObject, TResult>(IObjectBuilder<TSourceObject, TResult> builder,
-                                                                                          string storedProcedure,
-                                                                                          TQueryParameters param)
+    public async Task<TResult> QuerySingleAsync<TQueryParameters, TSourceObject, TResult>(IObjectBuilder<TSourceObject, TResult> builder, string storedProcedure, TQueryParameters param)
         where TSourceObject : class, new() where TResult : class
     {
         IReadOnlyList<TSourceObject> result = await this.InternalQueryAsync<TSourceObject>(storedProcedure: storedProcedure, param: param);
@@ -85,9 +81,7 @@ public abstract class Database : IDatabase
         return ExtractAndConvertSingle(builder: builder, result: result);
     }
 
-    public async Task<TResult?> QuerySingleOrDefaultAsync<TQueryParameters, TSourceObject, TResult>(IObjectBuilder<TSourceObject, TResult> builder,
-                                                                                                    string storedProcedure,
-                                                                                                    TQueryParameters param)
+    public async Task<TResult?> QuerySingleOrDefaultAsync<TQueryParameters, TSourceObject, TResult>(IObjectBuilder<TSourceObject, TResult> builder, string storedProcedure, TQueryParameters param)
         where TSourceObject : class, new() where TResult : class
     {
         IReadOnlyList<TSourceObject> result = await this.InternalQueryAsync<TSourceObject>(storedProcedure: storedProcedure, param: param);
@@ -150,11 +144,7 @@ public abstract class Database : IDatabase
                                         sleepDurationProvider: RetryDelayCalculator.Calculate,
                                         onRetry: (exception, delay, retryCount, context) =>
                                                  {
-                                                     this.LogAndDispatchTransientExceptions(exception: exception,
-                                                                                            context: context,
-                                                                                            delay: delay,
-                                                                                            retryCount: retryCount,
-                                                                                            maxRetries: MAX_RETRIES);
+                                                     this.LogAndDispatchTransientExceptions(exception: exception, context: context, delay: delay, retryCount: retryCount, maxRetries: MAX_RETRIES);
                                                  });
     }
 
@@ -197,9 +187,8 @@ public abstract class Database : IDatabase
         {
             // ReSharper disable once AccessToDisposedClosure - The IEnumerable is enumerated inside the using statement, connection can't be disposed before
             // that happens
-            IEnumerable<TReturn> result =
-                await this.ExecuteWithRetriesAsync(func: () => connection.QueryAsync<TReturn>(sql: storedProcedure, param: param, commandType: CommandType.StoredProcedure),
-                                                   context: storedProcedure);
+            IEnumerable<TReturn> result = await this.ExecuteWithRetriesAsync(func: () => connection.QueryAsync<TReturn>(sql: storedProcedure, param: param, commandType: CommandType.StoredProcedure),
+                                                                             context: storedProcedure);
 
             return result.ToArray();
         }
@@ -209,13 +198,13 @@ public abstract class Database : IDatabase
     {
         Context loggingContext = new(context);
 
+        T1 result = await this._retryPolicyAsync.ExecuteAsync(action: Wrapped, context: loggingContext);
+
+        return result;
+
         Task<T1> Wrapped(Context c)
         {
             return func();
         }
-
-        T1 result = await this._retryPolicyAsync.ExecuteAsync(action: Wrapped, context: loggingContext);
-
-        return result;
     }
 }
