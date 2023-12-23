@@ -83,7 +83,7 @@ Releases that have at least been deployed to staging, BUT NOT necessarily releas
 ### Changed
 - SDK - Updated DotNet SDK to 8.0.100-rc.1.23455.8
 - Dependencies - Updated Credfeto.Enumeration.Source.Generation to 1.1.0.138
-- Dependencies - Updated FunFair.CodeAnalysis to 7.0.3.138
+- Dependencies - Updated FunFair.CodeAnalysis to 7.0.4.198
 - Dependencies - Updated Meziantou.Analyzer to 2.0.85
 - Dependencies - Updated Microsoft.VisualStudio.Threading.Analyzers to 17.7.30
 - Dependencies - Updated Roslynator.Analyzers to 4.5.0
