@@ -9,6 +9,14 @@ Please ADD ALL Changes to the UNRELEASED SECTION and not a specific release
 ### Added
 ### Fixed
 ### Changed
+### Removed
+### Deployment Changes
+
+<!--
+Releases that have at least been deployed to staging, BUT NOT necessarily released to live.  Changes should be moved from [Unreleased] into here as they are merged into the appropriate release branch
+-->
+## [1.0.31] - 2023-12-24
+### Changed
 - SDK - Updated DotNet SDK to 8.0.100
 - Dependencies - Updated FunFair.CodeAnalysis to 7.0.4.198
 - Dependencies - Updated Microsoft.VisualStudio.Threading.Analyzers to 17.8.14
@@ -26,12 +34,7 @@ Please ADD ALL Changes to the UNRELEASED SECTION and not a specific release
 - Dependencies - Updated Dapper to 2.1.24
 - Dependencies - Updated xunit to 2.6.4
 - Dependencies - Updated xunit.runner.visualstudio to 2.5.6
-### Removed
-### Deployment Changes
 
-<!--
-Releases that have at least been deployed to staging, BUT NOT necessarily released to live.  Changes should be moved from [Unreleased] into here as they are merged into the appropriate release branch
--->
 ## [1.0.29] - 2023-11-12
 ### Changed
 - Dependencies - Updated Roslynator.Analyzers to 4.6.2
