@@ -16,6 +16,7 @@ Please ADD ALL Changes to the UNRELEASED SECTION and not a specific release
 - Dependencies - Updated xunit to 2.6.5
 - Dependencies - Updated Dapper to 2.1.28
 - Dependencies - Updated FunFair.Test.Common to 6.1.29.300
+- Dependencies - Updated Polly to 8.2.1
 ### Removed
 ### Deployment Changes
 
