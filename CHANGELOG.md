@@ -25,7 +25,8 @@ Please ADD ALL Changes to the UNRELEASED SECTION and not a specific release
 <!--
 Releases that have at least been deployed to staging, BUT NOT necessarily released to live.  Changes should be moved from [Unreleased] into here as they are merged into the appropriate release branch
 -->
-## [1.0.31] - 2023-12-24
+
+## [1.0.30] - 2023-12-24
 ### Changed
 - SDK - Updated DotNet SDK to 8.0.100
 - Dependencies - Updated FunFair.CodeAnalysis to 7.0.4.198
