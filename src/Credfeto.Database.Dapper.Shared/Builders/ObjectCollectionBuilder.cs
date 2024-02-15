@@ -23,8 +23,10 @@ public sealed class ObjectCollectionBuilder<TSourceObject, TDestinationObject> :
 
     public IReadOnlyList<TDestinationObject> Build(IEnumerable<TSourceObject> entities)
     {
-        return entities.Select(this.Build)
-                       .RemoveNulls()
-                       .ToArray();
+        return
+        [
+            ..entities.Select(this.Build)
+                      .RemoveNulls()
+        ];
     }
 }
