@@ -25,6 +25,7 @@ Please ADD ALL Changes to the UNRELEASED SECTION and not a specific release
 - Dependencies - Updated FunFair.Test.Common to 6.1.41.357
 - Dependencies - Updated Npgsql to 8.0.2
 - Dependencies - Updated xunit.analyzers to 1.11.0
+- Dependencies - Updated xunit.runner.visualstudio to 2.5.7
 ### Removed
 ### Deployment Changes
 
