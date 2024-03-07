@@ -10,6 +10,7 @@ Please ADD ALL Changes to the UNRELEASED SECTION and not a specific release
 ### Fixed
 ### Changed
 - Dependencies - Updated Nullable.Extended.Analyzer to 1.15.6169
+- Dependencies - Updated Dapper to 2.1.28
 - Dependencies - Updated Polly to 8.3.0
 - Dependencies - Updated Microsoft.NET.Test.Sdk to 17.9.0
 - Dependencies - Updated Microsoft.VisualStudio.Threading.Analyzers to 17.9.28
@@ -29,6 +30,7 @@ Please ADD ALL Changes to the UNRELEASED SECTION and not a specific release
 - Dependencies - Updated Credfeto.Enumeration.Source.Generation to 1.1.4.303
 - Dependencies - Updated SonarAnalyzer.CSharp to 9.21.0.86780
 - Dependencies - Updated Dapper to 2.1.35
+- Dependencies - Updated Polly to 8.3.1
 ### Removed
 ### Deployment Changes
 
