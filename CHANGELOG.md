@@ -9,6 +9,14 @@ Please ADD ALL Changes to the UNRELEASED SECTION and not a specific release
 ### Added
 ### Fixed
 ### Changed
+### Removed
+### Deployment Changes
+
+<!--
+Releases that have at least been deployed to staging, BUT NOT necessarily released to live.  Changes should be moved from [Unreleased] into here as they are merged into the appropriate release branch
+-->
+## [1.0.31] - 2024-03-12
+### Changed
 - Dependencies - Updated Nullable.Extended.Analyzer to 1.15.6169
 - Dependencies - Updated Dapper to 2.1.28
 - Dependencies - Updated Polly to 8.3.0
@@ -31,12 +39,6 @@ Please ADD ALL Changes to the UNRELEASED SECTION and not a specific release
 - Dependencies - Updated Dapper to 2.1.35
 - Dependencies - Updated Polly to 8.3.1
 - Dependencies - Updated FunFair.Test.Common to 6.1.45.389
-### Removed
-### Deployment Changes
-
-<!--
-Releases that have at least been deployed to staging, BUT NOT necessarily released to live.  Changes should be moved from [Unreleased] into here as they are merged into the appropriate release branch
--->
 
 ## [1.0.30] - 2023-12-24
 ### Changed
