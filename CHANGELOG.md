@@ -11,6 +11,7 @@ Please ADD ALL Changes to the UNRELEASED SECTION and not a specific release
 ### Changed
 - Dependencies - Updated FunFair.Test.Common to 6.1.45.389
 - Dependencies - Updated Microsoft.Extensions to 8.0.1
+- Dependencies - Updated Credfeto.Extensions.Linq to 1.0.17.157
 ### Removed
 ### Deployment Changes
 
