@@ -13,6 +13,7 @@ Please ADD ALL Changes to the UNRELEASED SECTION and not a specific release
 - Dependencies - Updated Microsoft.Extensions to 8.0.1
 - Dependencies - Updated Credfeto.Extensions.Linq to 1.0.17.157
 - SDK - Updated DotNet SDK to 8.0.202
+- Dependencies - Updated coverlet to 6.0.2
 ### Removed
 ### Deployment Changes
 
