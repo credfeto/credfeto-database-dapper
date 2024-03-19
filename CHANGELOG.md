@@ -12,9 +12,9 @@ Please ADD ALL Changes to the UNRELEASED SECTION and not a specific release
 - Dependencies - Updated FunFair.Test.Common to 6.1.45.389
 - Dependencies - Updated Microsoft.Extensions to 8.0.1
 - Dependencies - Updated Credfeto.Extensions.Linq to 1.0.17.157
-- SDK - Updated DotNet SDK to 8.0.202
 - Dependencies - Updated coverlet to 6.0.2
 - Dependencies - Updated Dapper to 2.1.37
+- SDK - Updated DotNet SDK to 8.0.203
 ### Removed
 ### Deployment Changes
 
