@@ -9,6 +9,14 @@ Please ADD ALL Changes to the UNRELEASED SECTION and not a specific release
 ### Added
 ### Fixed
 ### Changed
+### Removed
+### Deployment Changes
+
+<!--
+Releases that have at least been deployed to staging, BUT NOT necessarily released to live.  Changes should be moved from [Unreleased] into here as they are merged into the appropriate release branch
+-->
+## [1.0.32] - 2024-03-20
+### Changed
 - Dependencies - Updated FunFair.Test.Common to 6.1.45.389
 - Dependencies - Updated Microsoft.Extensions to 8.0.1
 - Dependencies - Updated Credfeto.Extensions.Linq to 1.0.17.157
@@ -19,12 +27,7 @@ Please ADD ALL Changes to the UNRELEASED SECTION and not a specific release
 - Dependencies - Updated Roslynator.Analyzers to 4.12.0
 - Dependencies - Updated FunFair.CodeAnalysis to 7.0.11.311
 - Dependencies - Updated SonarAnalyzer.CSharp to 9.22.0.87781
-### Removed
-### Deployment Changes
 
-<!--
-Releases that have at least been deployed to staging, BUT NOT necessarily released to live.  Changes should be moved from [Unreleased] into here as they are merged into the appropriate release branch
--->
 ## [1.0.31] - 2024-03-12
 ### Changed
 - Dependencies - Updated Nullable.Extended.Analyzer to 1.15.6169
