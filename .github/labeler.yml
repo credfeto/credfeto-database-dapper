@@ -1,48 +1,48 @@
-"C#":
- - any: [ './**/*.cs', './**/*.csproj' ]
-"C# Project":
- - any: [ './**/*.csproj' ]
-"C# Solution":
- - any: [ './**/*.sln' ]
-"Powershell":
- - any: [ './**/*.ps1', './**/*.psm1' ]
-"SQL":
- - any: [ 'db/**/*', './**/*.sql' ]
-"Solidity":
- - any: [ './**/*.sol' ]
-"unit-tests":
- - any: [ 'src/*.Tests.*/**/*', 'src/*.Tests/**/*', 'src/*.Tests.Integration.*/**/*', 'src/*.Tests.Integration/**/*' ]
 ".NET update":
- - any: [ 'src/global.json' ]
-"Config Change":
- - any: [ 'src/**/*.json', '!src/global.json' ]
-"Static Code Analysis Rules":
- - any: [ 'src/CodeAnalysis.ruleset' ]
-"Migration Script":
- - any: [ 'tools/MigrationScripts/**/*' ]
-"Legal Text":
- - any: [ 'tools/LegalText/**/*' ]
+ - any: [ ''src/global.json'' ]
+"C#":
+ - any: [ ''./**/*.cs', './**/*.csproj'' ]
+"C# Project":
+ - any: [ ''./**/*.csproj'' ]
+"C# Solution":
+ - any: [ ''./**/*.sln'' ]
 "Change Log":
- - any: [ 'CHANGELOG.md' ]
-"Read Me":
- - any: [ 'README.md' ]
-"Setup":
- - any: [ 'SETUP.md' ]
-"Markdown":
- - any: [ './**/*.md' ]
+ - any: [ ''CHANGELOG.md'' ]
+"Config Change":
+ - any: [ ''src/**/*.json', '!src/global.json'' ]
+"credfeto-database-dapper":
+ - any: [ ''src/$Credfeto.Database.Dapper/**/*'' ]
+"credfeto-database-dapper-interfaces":
+ - any: [ ''src/$Credfeto.Database.Dapper.Interfaces/**/*'' ]
+"credfeto-database-dapper-pgsql":
+ - any: [ ''src/$Credfeto.Database.Dapper.Pgsql/**/*'' ]
+"credfeto-database-dapper-pgsql-tests":
+ - any: [ ''src/$Credfeto.Database.Dapper.Pgsql.Tests/**/*'' ]
+"credfeto-database-dapper-shared":
+ - any: [ ''src/$Credfeto.Database.Dapper.Shared/**/*'' ]
+"credfeto-database-dapper-shared-tests":
+ - any: [ ''src/$Credfeto.Database.Dapper.Shared.Tests/**/*'' ]
+"credfeto-database-dapper-tests":
+ - any: [ ''src/$Credfeto.Database.Dapper.Tests/**/*'' ]
 "github-actions":
- - any: [ '.github/workflows/*.yml' ]
-"Credfeto.Database.Dapper":
- - any: [ 'src/Credfeto.Database.Dapper/**/*' ]
-"Interfaces":
- - any: [ 'src/Credfeto.Database.Dapper.Interfaces/**/*' ]
-"Pgsql":
- - any: [ 'src/Credfeto.Database.Dapper.Pgsql/**/*' ]
-"Pgsql.Tests":
- - any: [ 'src/Credfeto.Database.Dapper.Pgsql.Tests/**/*' ]
-"Shared":
- - any: [ 'src/Credfeto.Database.Dapper.Shared/**/*' ]
-"Shared.Tests":
- - any: [ 'src/Credfeto.Database.Dapper.Shared.Tests/**/*' ]
-"Tests":
- - any: [ 'src/Credfeto.Database.Dapper.Tests/**/*' ]
+ - any: [ ''.github/workflows/*.yml'' ]
+"Legal Text":
+ - any: [ ''tools/LegalText/**/*'' ]
+"Markdown":
+ - any: [ ''./**/*.md'' ]
+"Migration Script":
+ - any: [ ''tools/MigrationScripts/**/*'' ]
+"Powershell":
+ - any: [ ''./**/*.ps1', './**/*.psm1'' ]
+"Read Me":
+ - any: [ ''README.md'' ]
+"Setup":
+ - any: [ ''SETUP.md'' ]
+"Solidity":
+ - any: [ ''./**/*.sol'' ]
+"SQL":
+ - any: [ ''./**/*.sql', 'db/**/*'' ]
+"Static Code Analysis Rules":
+ - any: [ ''src/CodeAnalysis.ruleset'' ]
+"unit-tests":
+ - any: [ ''src/*.Tests.*/**/*', 'src/*.Tests.Integration.*/**/*', 'src/*.Tests.Integration/**/*', 'src/*.Tests/**/*'' ]
